@@ -26,19 +26,15 @@ extract domain or subdomain. Additionally it is neccesary set up your
 VirusTotal API key in the code.
 
 optional arguments:
-  -h  --help     show this help message and exit.
-  
-  -i   FIRST_IP  The First IP of the range that you want to scan.
-  
-  -f   LAST_IP   The Last IP of the range that you want to scan.
-  
-  -w   FILE2     Please enter the file name where report with all domains and are going to save.
-               
-  -o   FILE1     Please enter the file name where the all domains found are going to save.
-  
-  -v   It shows more information while you are scanning.
-  
-  -r   FILE3     Please enter the name of the final report without duplicate domains results.
+  -i FIRST_IP  Первый IP диапазона, который вы хотите просканировать.
+  -f LAST_IP   Последний IP диапазона, который вы хотите просканировать.
+  -w FILE2     Имя файла, в котором будет сохранён отчёт со
+             всеми доменами и их IP.
+  -o FILE1     Имя файла, в котором будут сохранены все
+             найденные домены.
+  -v           Показывать больше информации во время сканирования.
+  -r FILE3     Имя конечного отчёта без повторяющихся результатов
+             доменов.
   
   This tool was created by:
   
